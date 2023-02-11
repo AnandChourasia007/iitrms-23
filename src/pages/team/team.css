@@ -2,7 +2,6 @@
 
 .team {
     background: linear-gradient(48.58deg, #14151C 26.41%, #292C33 89.97%);
-    padding: 3vmax 8vmax;
 }
 
 .main_team_title {
@@ -20,4 +19,33 @@
     font-size: 1.2vmax;
     line-height: 150%;
     color: #FFFFFF;
+}
+
+.team_verticals {
+    padding: 0 0 3vmax 30vmax;
+    background: url('../../assets/teamBg.svg') center right no-repeat;
+}
+
+.vertical {
+    padding-bottom: 2vmax;
+    padding-right: 6.5vmax;
+}
+
+.vertical_title {
+    display: flex;
+    gap: 1vmax;
+    padding-bottom: 1vmax;
+}
+
+.vertical_title:after {
+    flex: 1 1;
+    content: "";
+    margin: auto;
+    border: 1px solid #FFFFFF;
+}
+
+.vertical_member {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmax;
 }

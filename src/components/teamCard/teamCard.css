@@ -1,0 +1,61 @@
+.member_card {
+    width: fit-content;
+    text-align: center;
+}
+
+.member_name {
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2vmax;
+    color: #FFFFFF;
+    padding: 0.4vmax 0;
+}
+
+.member_position {
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2vmax;
+    color: #95BA37;
+    padding: 0 0 0.5vmax 0;
+}
+
+.photo {
+    position: relative;
+    width: fit-content;
+}
+
+.photo>img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.photo_overlay {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(341.94deg, #14151C 13.55%, rgba(41, 44, 51, 0.4) 55.49%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    opacity: 0;
+}
+
+.socials {
+    display: flex;
+    gap: 2vmax;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2vmax;
+}
+
+.photo:hover .photo_overlay {
+    opacity: 1;
+}
+
+.socials>a:hover {
+    cursor: pointer;
+}
