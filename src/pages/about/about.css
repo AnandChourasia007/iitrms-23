@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap');
+
+.about {
+    background: linear-gradient(48.58deg, #14151C 26.41%, #292C33 89.97%);
+}
+
+.about_us {
+    padding: 3vmax 8vmax;
+    background: url('../../assets/background.svg') bottom right no-repeat;
+    background-size: contain;
+}
+
+.main_title {
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5vmax;
+    color: #FFFFFF;
+    padding-bottom: 0.3vmax;
+    margin-bottom: 1vmax;
+    width: fit-content;
+    border-bottom: 2px solid #A4CC3C;
+}
+
+.text {
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.34vmax;
+    line-height: 2vmax;
+    color: #EEEEEE;
+    padding: 1vmax 0;
+}
+
+.about_formula_bharat {
+    padding: 8vmax;
+}
+
+.formula_bharat_desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formula_bharat_desc_left {
+    width: 49.25%;
+}
+
+.formula_bharat_desc_right {
+    width: 49.25%;
+}
+
+.formula_bharat_event {
+    display: flex;
+    gap: 1.5%;
+}
+
+.formula_bharat_event_tile {
+    background: rgba(149, 186, 55, 0.12);
+    border: 1px solid #95BA37;
+}
+
+.formula_bharat_event_tile>p {
+    padding: 2.5vmax 2.8vmax;
+}

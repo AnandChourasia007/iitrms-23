@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap');
+
+.team {
+    background: linear-gradient(48.58deg, #14151C 26.41%, #292C33 89.97%);
+    padding: 3vmax 8vmax;
+}
+
+.main_team_title {
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.8vmax;
+    color: #FFFFFF;
+}
+
+.main_team_desc {
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vmax;
+    line-height: 150%;
+    color: #FFFFFF;
+}
